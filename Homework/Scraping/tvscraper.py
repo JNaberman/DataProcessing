@@ -1,4 +1,3 @@
-#testcomment
 #!/usr/bin/env python
 # Name: Jasper Naberman
 # Student number: 10787224

@@ -25,11 +25,6 @@ def extract_tvseries(dom):
     - Actors/actresses (comma separated if more than one)
     - Runtime (only a number!)
     '''
-
-    # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
-    # HIGHEST RATED TV-SERIES
-    # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
-    # UNICODE CHARACTERS AND SIMPLY LEAVE THEM OUT OF THE OUTPUT.
     
     # make a list consisting of 50 arrays with 5 elements
     x, y = 5, 50
@@ -80,7 +75,6 @@ def save_csv(f, tvseries):
             tvseries[i][2].encode('ascii', 'ignore'), 
             tvseries[i][3].encode('ascii', 'ignore'), 
             tvseries[i][4].encode('ascii', 'ignore')])
-    # ADD SOME CODE OF YOURSELF HERE TO WRITE THE TV-SERIES TO DISK
 
 if __name__ == '__main__':
     # Download the HTML file

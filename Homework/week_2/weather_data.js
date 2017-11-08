@@ -21,5 +21,4 @@ for(i = 0; i < data.length; i++){
 var canvas = document.getElementById("my_canvas")
 var ctx = canvas.getContext("2d")
 
-ctx.strokeText("hello", 0, 50)
-console.log(ctx.measureText("hello", 0, 50))
+console.log(data[0])

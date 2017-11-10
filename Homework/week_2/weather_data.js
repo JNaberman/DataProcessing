@@ -1,17 +1,20 @@
-/* Weather Data.js
+/* weather_data.js
 *
 * Jasper Naberman
 * 10787224
 * Data Processing
 *
-* A script for the weather data assignment of data processing week 2
+* A .js-script for the weather data assignment of data processing week 2
 */
 
-// get the data from the html, split it by enters and store it in a variable
+// get the data from the XMLHTTPRequest, split it by enters and store it in a variable
+
+
 var data = document.getElementById("raw_data").innerHTML.split("\n")
+
 var temperatures = []
 
-// format the data into JavaScript dates and numbers
+// parse the data into JavaScript dates and numbers
 for(i = 0; i < data.length - 1; i++){
 	data[i] = data[i].split(",")
 	data[i][0] = data[i][0].slice(2, 6) + "-" + data[i][0].slice(6, 8) + "-" + data[i][0].slice(8, 10)
@@ -23,9 +26,9 @@ for(i = 0; i < data.length - 1; i++){
 // get the canvas element and set it's parameters
 var canvas = document.getElementById("my_canvas")
 var ctx = canvas.getContext("2d")
-var width = canvas.width = 500
-var height = canvas.height = 300
-var style = canvas.style = "border: 1px solid #000000;"
+var width = canvas.width = 650
+var height = canvas.height = 325
+// var style = canvas.style = "border: 1px solid #000000;"
 
 function createTransform(domain, range){
 	// domain is a two-element array of the data bounds [domain_min, domain_max]
@@ -50,35 +53,13 @@ function createTransform(domain, range){
     }
 }
 
-// compute the minimum temperature
-function temperatureMin(temperatureArray){
-	var n = temperatureArray.length
-	min = Infinity
-  	while (n--){
-    	if (Number(temperatureArray[n]) < min){
-      		min = Number(temperatureArray[n])
-    	}
-  	}
-  	return min
-}
-
-// compute the maximum temperature
-function temperatureMax(temperatureArray){
-	var n = temperatureArray.length
-	max = -Infinity
-	while (n--){
-    	if (Number(temperatureArray[n]) > max){
-    		max = Number(temperatureArray[n])
-  		}
-  	}
-	return max
-}
-
-var axisSpace = 10
+// define padding for both axes
+var yAxisSpace = 5
+var xAxisSpace = 2 * yAxisSpace
 
 // make a new function with the function createTransform returns, but with the right parameters
-var yTransform = createTransform([temperatureMin(temperatures), temperatureMax(temperatures)], [height - height / axisSpace, height / axisSpace])
-var xTransform = createTransform([0, 365], [width / axisSpace, width])
+var yTransform = createTransform([-50, 300], [height - height / yAxisSpace, height / yAxisSpace])
+var xTransform = createTransform([0, 365], [width / xAxisSpace, width])
 
 // initiate and draw the path
 ctx.beginPath()
@@ -88,8 +69,53 @@ for(i = 0; i < temperatures.length; i++){
 	ctx.lineTo(xTransform(i), yTransform(temperatures[i]))
 }
 
-ctx.stroke()
-
+// make graph and axis titles
 ctx.font = "20px Arial"
 ctx.textAlign = "center"
-ctx.fillText("Average temperature in 2016 in De Bilt (NL)", width / 2, height / axisSpace)
+ctx.fillText("Average temperature in 2016 in De Bilt (NL)", width / 2, 3 * xAxisSpace)
+
+ctx.font = "13px Arial"
+ctx.fillText("Months", (width + 60) / 2, height - yAxisSpace)
+
+ctx.save()
+ctx.translate(3 * xAxisSpace, (height - 10 * yAxisSpace) / 1.7)
+ctx.rotate(-Math.PI / 2)
+ctx.fillText("Temperature", 0, 0)
+ctx.restore()
+
+var xOneTick = (width - width / xAxisSpace) / 11
+var yOneTick = ((height - height / yAxisSpace) - (height / yAxisSpace)) / 7
+var tickSize = 5
+
+// draw x-axis
+ctx.moveTo(width / xAxisSpace, height - height / yAxisSpace)
+for(i = 0; i < 12; i++){
+	ctx.lineTo(width / xAxisSpace + i * xOneTick, height - height / yAxisSpace)
+	ctx.lineTo(width / xAxisSpace + i * xOneTick, (height - height / yAxisSpace) + tickSize)
+	ctx.moveTo(width / xAxisSpace + i * xOneTick, height - height / yAxisSpace)
+}
+
+// draw y-axis with tick values
+ctx.moveTo(width / xAxisSpace, height - height / yAxisSpace)
+for(i = 0; i < 8; i++){
+	ctx.lineTo(width / xAxisSpace, height - height / yAxisSpace - i * yOneTick)
+	ctx.lineTo(width / xAxisSpace - tickSize, (height - height / yAxisSpace) - i * yOneTick)
+	ctx.moveTo(width / xAxisSpace, height - height / yAxisSpace - i * yOneTick)
+	ctx.fillText(-5 + 5 * i, width / xAxisSpace - 3 * tickSize, (height - height / yAxisSpace) - i * yOneTick + height / 90)
+}
+
+// make array with months
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+ctx.font = "10px Arial"
+ctx.textAlign = "right"
+
+// draw months names rotated on the x-axis
+for(i = 0; i < 12; i++){
+	ctx.save()
+	ctx.translate(width / xAxisSpace + i * xOneTick, (height - height / yAxisSpace) + 2 * tickSize)
+	ctx.rotate(-Math.PI / 4)
+	ctx.fillText(months[i], 0, 0)
+	ctx.restore()
+}
+ctx.stroke()

@@ -2,7 +2,7 @@
 *
 * Jasper Naberman
 * 10787224
-* Data Processing
+* Data Processing Week 2
 *
 * A script for the XMLHTTP-request for the weather data assignment
 */

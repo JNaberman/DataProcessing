@@ -2,9 +2,9 @@
 *
 * Jasper Naberman
 * 10787224
-* Data Processing
+* Data Processing Week 2
 *
-* A .js-script for the weather data assignment of data processing week 2
+* A .js-script for the weather data assignment of data processing
 */
 
 // get the data from the XMLHTTPRequest, split it by enters and store it in a variable

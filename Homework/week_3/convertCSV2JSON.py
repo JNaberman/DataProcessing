@@ -11,17 +11,12 @@ import json
 
 data = []
 
-# strip the file of it's comments and whitespaces
-file = 'KNMI_20151231.txt.tsv'
-with open(file, 'r') as raw_data:
-    reader = csv.reader(raw_data, delimiter=',')
-    for line in reader:
-        if line[0][0] != '#':
-            for element in range(len(line)):
-                line[element] = line[element].strip(' ')
-            line.pop(0)
-            data.append(line)
+csv_file = open('rawData.csv', 'r')
+json_file = open('data.json', 'w')
 
-# store the data list in a textfile in json format
-with open('data.json', 'w') as outfile:
-    json.dump(data, outfile)
+reader = csv.DictReader(csv_file)
+temp = []
+for line in reader:
+    temp.append(line)
+
+json.dump(temp, json_file, indent = 4, separators = (',', ': '))

@@ -59,10 +59,18 @@ d3.json("data.json", function(data) { data.forEach(function(d) {
 			.style("font-family", "sans-serif")
 	        .text("Maximum Temperature in February 2014 in De Bilt, The Netherlands (in °C)");
 
+	domainY = 0
+	if (Math.ceil(d3.max(data, function(d) { return d.maxTemp; })) % 2 == 0){
+		domainY = Math.ceil(d3.max(data, function(d) { return d.maxTemp; }))
+	}
+	else{
+		domainY = Math.ceil(d3.max(data, function(d) { return d.maxTemp; })) + 1
+	}
+			
 	// scale chart
 	x.domain(data.map(function(d) { return d.date; }));
-	y.domain([0, d3.max(data, function(d) { return d.maxTemp; })]);
-
+	y.domain([0, domainY]);
+	
 	// initialize x-axis
 	svg.append("g")
 		.attr("class", "x axis")

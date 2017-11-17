@@ -58,7 +58,7 @@ d3.json("data.json", function(data) { data.forEach(function(d) {
 	        .style("font-size", "20px")
 			.style("font-family", "sans-serif")
 	        .text("Maximum Temperature in February 2014 in De Bilt, The Netherlands (in °C)");
-		
+
 	// scale chart
 	x.domain(data.map(function(d) { return d.date; }));
 	y.domain([0, d3.max(data, function(d) { return d.maxTemp; })]);

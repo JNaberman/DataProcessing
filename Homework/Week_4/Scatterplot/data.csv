@@ -1,0 +1,116 @@
+Country;Alcohol;Population;Smoking;Continent
+Greece;10.75;11069662;51.8;Europe
+Nauru;4.83;10115;49.2;Oceania
+Russia;15.76;143622566;48.5;Europe
+Austria;13.24;8234858;43.3;Europe
+Belarus;15.13;9640616;42.6;Europe
+Bosnia and Herzegovina;9.63;3833377;42.3;Europe
+Serbia;11.09;9186685;42.3;Europe
+Samoa;4.8;179928;41;Oceania
+Hungary;16.27;10095964;39.8;Europe
+Latvia;12.5;2227559;39.4;Europe
+Tonga;3.78;100858;39;Oceania
+Estonia;15.57;1355662;38.8;Europe
+Chile;8.55;16096571;37.9;South America
+Bulgaria;12.44;7682614;37.7;Europe
+Jordan;0.71;5332982;36.5;Asia
+Cuba;5.51;11261052;35.9;North America
+Portugal;14.55;10480085;35.8;Europe
+United Kingdom;13.37;60210012;35.7;Europe
+Poland;13.25;38463514;35.6;Europe
+Turkey;2.87;67860617;35.5;Asia
+Indonesia;0.59;226254703;35.4;Asia
+Luxembourg;13.01;457847;34.7;Europe
+Netherlands;10.05;16331646;34.3;Europe
+Croatia;15.11;4378056;34;Europe
+Spain;11.62;43854761;33.7;Europe
+Denmark;13.37;5417692;33.4;Europe
+Lithuania;15.03;3343268;33;Europe
+Andorra;15.48;81223;32.9;Europe
+Uruguay;8.14;3325608;32.6;South America
+Romania;15.3;21407619;32.6;Europe
+Norway;7.81;4624388;32;Europe
+Georgia;6.4;4475273;31.9;Europe
+China;5.91;1305600630;31.8;Asia
+Bolivia;5.12;9125405;31.7;South America
+France;13.66;61241700;31.7;Europe
+Germany;12.81;81246801;31.6;Europe
+Nepal;2.41;25506847;30.6;Asia
+Argentina;10;39145491;30;South America
+Venezuela;8.23;26769115;29.8;South America
+Armenia;11.35;3014917;29.6;Europe
+Japan;8.03;126978754;29.4;Asia
+Vanuatu;0.93;209375;28.8;Oceania
+Malaysia;0.82;25796124;28.8;Asia
+Malta;4.27;397094;28.7;Europe
+New Zealand;9.62;4134699;28.6;Oceania
+Finland;12.52;5246368;28.1;Europe
+Belgium;10.77;10561436;27.1;Europe
+Tunisia;1.29;10102477;26.6;Africa
+Kazakhstan;10.96;15451752;26.6;Asia
+Slovenia;15.19;1996522;26.5;Europe
+Switzerland;11.06;7408608;26.5;Europe
+Iceland;6.31;296745;26.3;Europe
+Mongolia;3.24;2526447;26.3;Asia
+Ireland;14.41;4203700;26.3;Europe
+Italy;10.68;58657355;26.1;Europe
+Moldova;18.22;4157707;26;Europe
+Philippines;6.38;86141373;26;Asia
+Bangladesh;0.17;142929979;25.6;Asia
+Namibia;9.62;2027026;24.9;Africa
+Australia;10.02;20274282;24.8;Oceania
+Mexico;8.42;109747906;24.7;North America
+Israel;2.89;6603677;24.6;Asia
+Vietnam;3.77;84203817;24.3;Asia
+Palau;10.1;19907;24;Oceania
+Paraguay;7.88;5795493;24;South America
+United States;9.44;296139635;23.9;North America
+Cambodia;4.77;13320058;23.6;Asia
+Albania;6.68;3082172;22.4;Europe
+Trinidad and Tobago;6.28;1296933;22.1;North America
+Sweden;10.1;9030163;22;Europe
+Thailand;7.08;65863973;21.7;Asia
+Canada;9.77;32256333;21.6;North America
+Seychelles;10.59;88747;21.2;Africa
+Pakistan;0.06;153356383;21.1;Asia
+Comoros;0.36;618632;20.7;Africa
+India;2.59;1144326293;18.6;Asia
+Mauritius;3.72;1222006;18.5;Africa
+South Africa;9.46;48352951;18.4;Africa
+Lebanon;2.23;3986865;18.1;Asia
+Iran;1.02;70122115;17.6;Asia
+Costa Rica;5.55;4247843;16.8;North America
+Burkina Faso;6.98;13421929;16.6;Africa
+Sri Lanka;0.79;19526406;16.5;Asia
+Gambia;3.39;1440542;16.2;Africa
+Algeria;0.96;33267887;15.2;Africa
+Egypt;0.37;74942115;15.1;Africa
+Jamaica;5;2677888;15;North America
+Malawi;1.74;12747846;15;Africa
+Zimbabwe;5.08;12984418;15;Africa
+Morocco;1.46;30385479;15;Africa
+Ecuador;9.38;13735232;14.9;South America
+Saudi Arabia;0.25;24745230;14.7;Asia
+Kenya;4.14;35349040;14.7;Africa
+Bahrain;3.66;867014;14.6;Asia
+Tanzania;6.75;39065600;14.6;Africa
+Fiji;2.43;821820;14.4;Oceania
+United Arab Emirates;0.54;4481976;14.4;Asia
+Guatemala;4.03;13183505;14.4;North America
+Iraq;0.4;27017712;14.2;Asia
+Zambia;3.85;12043591;13.4;Africa
+Oman;0.94;2506891;13.1;Asia
+Mauritania;0.11;3154087;13.1;Africa
+Mozambique;2.38;21126676;12.8;Africa
+Uzbekistan;3.54;25922239;12.8;Asia
+Uganda;11.93;28042413;12.1;Africa
+Mali;1.04;12881384;11.2;Africa
+Barbados;6.91;274013;10.8;North America
+Senegal;0.6;11268994;10.7;Africa
+Chad;4.38;10067932;9.4;Africa
+Eritrea;1.54;4191273;9.1;Africa
+Swaziland;5.7;1104642;8.9;Africa
+Cameroon;7.57;18126999;7.4;Africa
+Nigeria;12.28;139611303;7.1;Africa
+Ghana;2.97;21389514;5.5;Africa
+Ethiopia;4.02;76608431;4.3;Africa

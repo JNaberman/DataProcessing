@@ -1,0 +1,39 @@
+/* scatterplot.css
+*
+* Jasper Naberman
+* 10787224
+* Data Processing Week 4
+*
+* A css-script for the scatterplot assignment
+*/
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis {
+  font: 12px sans-serif;
+}
+
+.dot {
+	stroke: #000;
+}
+
+.legend circle {
+	stroke: #000;
+}
+
+.tooltip {
+    position: absolute;
+	margin-left: 20px;
+	padding: 9px;
+	border-radius: 10px;
+    width: auto;
+    height: auto;
+    pointer-events: none;
+    background-color: lightgrey;
+	color: black;
+}

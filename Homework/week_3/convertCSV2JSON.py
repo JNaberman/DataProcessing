@@ -11,7 +11,7 @@ import json
 
 data = []
 
-csv_file = open('rawData.csv', 'r')
+csv_file = open('data.csv', 'r')
 json_file = open('data.json', 'w')
 
 reader = csv.DictReader(csv_file)

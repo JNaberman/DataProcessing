@@ -1,0 +1,219 @@
+[
+ {
+  "average_temperature": 141.0, 
+  "date": "20171001", 
+  "maximum_temperature": 176.0, 
+  "minimum_temperature": 90.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 156.0, 
+  "date": "20171002", 
+  "maximum_temperature": 193.0, 
+  "minimum_temperature": 116.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 120.0, 
+  "date": "20171003", 
+  "maximum_temperature": 161.0, 
+  "minimum_temperature": 85.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 120.0, 
+  "date": "20171004", 
+  "maximum_temperature": 145.0, 
+  "minimum_temperature": 87.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 120.0, 
+  "date": "20171005", 
+  "maximum_temperature": 153.0, 
+  "minimum_temperature": 85.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 101.0, 
+  "date": "20171006", 
+  "maximum_temperature": 142.0, 
+  "minimum_temperature": 78.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 100.0, 
+  "date": "20171007", 
+  "maximum_temperature": 110.0, 
+  "minimum_temperature": 86.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 118.0, 
+  "date": "20171008", 
+  "maximum_temperature": 145.0, 
+  "minimum_temperature": 101.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 125.0, 
+  "date": "20171009", 
+  "maximum_temperature": 156.0, 
+  "minimum_temperature": 105.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 138.0, 
+  "date": "20171010", 
+  "maximum_temperature": 159.0, 
+  "minimum_temperature": 120.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 143.0, 
+  "date": "20171011", 
+  "maximum_temperature": 157.0, 
+  "minimum_temperature": 124.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 135.0, 
+  "date": "20171012", 
+  "maximum_temperature": 166.0, 
+  "minimum_temperature": 100.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 156.0, 
+  "date": "20171013", 
+  "maximum_temperature": 190.0, 
+  "minimum_temperature": 101.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 163.0, 
+  "date": "20171014", 
+  "maximum_temperature": 217.0, 
+  "minimum_temperature": 128.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 171.0, 
+  "date": "20171015", 
+  "maximum_temperature": 242.0, 
+  "minimum_temperature": 98.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 192.0, 
+  "date": "20171016", 
+  "maximum_temperature": 255.0, 
+  "minimum_temperature": 158.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 149.0, 
+  "date": "20171017", 
+  "maximum_temperature": 188.0, 
+  "minimum_temperature": 122.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 149.0, 
+  "date": "20171018", 
+  "maximum_temperature": 215.0, 
+  "minimum_temperature": 74.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 168.0, 
+  "date": "20171019", 
+  "maximum_temperature": 216.0, 
+  "minimum_temperature": 114.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 137.0, 
+  "date": "20171020", 
+  "maximum_temperature": 168.0, 
+  "minimum_temperature": 102.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 132.0, 
+  "date": "20171021", 
+  "maximum_temperature": 168.0, 
+  "minimum_temperature": 106.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 100.0, 
+  "date": "20171022", 
+  "maximum_temperature": 130.0, 
+  "minimum_temperature": 86.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 114.0, 
+  "date": "20171023", 
+  "maximum_temperature": 138.0, 
+  "minimum_temperature": 90.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 140.0, 
+  "date": "20171024", 
+  "maximum_temperature": 156.0, 
+  "minimum_temperature": 117.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 150.0, 
+  "date": "20171025", 
+  "maximum_temperature": 165.0, 
+  "minimum_temperature": 134.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 142.0, 
+  "date": "20171026", 
+  "maximum_temperature": 163.0, 
+  "minimum_temperature": 113.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 110.0, 
+  "date": "20171027", 
+  "maximum_temperature": 141.0, 
+  "minimum_temperature": 81.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 98.0, 
+  "date": "20171028", 
+  "maximum_temperature": 137.0, 
+  "minimum_temperature": 71.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 92.0, 
+  "date": "20171029", 
+  "maximum_temperature": 136.0, 
+  "minimum_temperature": 43.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 70.0, 
+  "date": "20171030", 
+  "maximum_temperature": 110.0, 
+  "minimum_temperature": 43.0, 
+  "station": "Maastricht"
+ }, 
+ {
+  "average_temperature": 84.0, 
+  "date": "20171031", 
+  "maximum_temperature": 104.0, 
+  "minimum_temperature": 60.0, 
+  "station": "Maastricht"
+ }
+]

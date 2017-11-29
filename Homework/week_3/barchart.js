@@ -118,5 +118,4 @@ d3.json("data.json", function(data) { data.forEach(function(d) {
 		.attr("height", function(d) { return height - y(d.maxTemp); })
 		.on('mouseover', tip.show)
 		.on('mouseout', tip.hide)
-
 });

@@ -12,60 +12,83 @@ window.onload = function() {
 	drawD3Line();
 }
 
+// set the dimensions of the canvas
+var margin = {top: 50, right: 50, bottom: 50, left: 50},
+		width = 1200 - margin.left - margin.right,
+		height = 600 - margin.top - margin.bottom;
+
+var dataset = "dataMaastricht.json";
+
+function Maastricht(){
+	d3.select("svg").remove();
+	dataset = "dataMaastricht.json";
+	drawD3Line();
+}
+
+function Lauwersoog(){
+	d3.select("svg").remove();
+	dataset = "dataLauwersoog.json";
+	drawD3Line();
+}
+
 // initialize and draw the multiseries line graph
 function drawD3Line(){
-	// set the dimensions of the canvas
-	var margin = {top: 60, right: 50, bottom: 50, left: 50},
-			width = 1200 - margin.left - margin.right,
-			height = 630 - margin.top - margin.bottom;
-		
 	var parseTime = d3.timeParse("%y-%m-%d");
 	var bisectDate = d3.bisector(function(d) { return d.date; }).left;
 
 	var xScale = d3.scaleTime().rangeRound([0, width])
 	var yScale = d3.scaleLinear().rangeRound([height, 0]);
-	
+
 	var color = ["red", "black", "blue"]
-	
+
 	var line_maximum = d3.line()
 		.curve(d3.curveCatmullRom)
 	    .x(function(d) { return xScale(d.date); })
 	    .y(function(d) { return yScale(d.maximum_temperature); });
-	
+
 	var line_average = d3.line()
 		.curve(d3.curveCatmullRom)
 	    .x(function(d) { return xScale(d.date); })
 	    .y(function(d) { return yScale(d.average_temperature); });
-		
+	
 	var line_minimum = d3.line()
 		.curve(d3.curveCatmullRom)
 	    .x(function(d) { return xScale(d.date); })
 	    .y(function(d) { return yScale(d.minimum_temperature); });
-		
+	
 	// add the SVG element
 	svg = d3.select("body").append("svg")
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
 		.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-	
+
 	// load the data
-	d3.json("dataMaastricht.json", function(data) { data.forEach(function(d) {
+	d3.json(dataset, function(data) { data.forEach(function(d) {
 		d.average_temperature = +d.average_temperature / 10;
 		d.minimum_temperature = +d.minimum_temperature / 10;
 		d.maximum_temperature = +d.maximum_temperature / 10;
 		d.date = parseTime(d.date.slice(2, 4) + "-" + 
 			d.date.slice(4, 6) + "-" + d.date.slice(6, 8));
 		});
+	
+		svg.append("text")
+		        .attr("x", (width / 2) + 30)             
+		        .attr("y", 0 - (margin.top / 2))
+		        .attr("text-anchor", "middle")  
+		        .style("font-size", "18px")
+				.style("font-family", "sans-serif")
+		        .text("Temperature Stats For the Most Northern and Most Southern " + 
+						"Weatherstations in The Netherlands in October (in °C)");
 
 		// initialize the axes domains
 	    xScale.domain(d3.extent(data, function(d) { return d.date; }));
-		
+	
 		yScale.domain([
-			(d3.min(d3.extent(data, function(d) { return d.minimum_temperature; })) - 1),
-			(d3.max(d3.extent(data, function(d) { return d.maximum_temperature; })) + 1)
+			(d3.min(d3.extent(data, function(d) { return d.minimum_temperature; }))-1),
+			(d3.max(d3.extent(data, function(d) { return d.maximum_temperature; }))+1)
 		]);
-		
+	
 		// add the axes
 		svg.append("g")
 			.attr("transform", "translate(0," + height + ")")
@@ -77,7 +100,7 @@ function drawD3Line(){
 			.attr("dy", "0.71em")
 			.attr("text-anchor", "end")
 			.text("Dates");
-		
+	
 		svg.append("g")
 			.call(d3.axisLeft(yScale))
 			.append("text")
@@ -87,31 +110,34 @@ function drawD3Line(){
 			.attr("dy", "0.71em")
 			.attr("text-anchor", "end")
 			.text("Temperature (°C)");
-	    
+    
+		// draw a legend
+		drawLegend();
+	
 		// append the three temperature lines
 		svg.append("path")
 			.datum(data)
 	        .attr("class", "line")
 	        .attr("d", line_maximum)
 			.style("stroke", "red");
-	    
+    
 		svg.append("path")
 			.datum(data)
 	        .attr("class", "line")
 	        .attr("d", line_average)
 			.style("stroke", "black");
-			
+		
 	    svg.append("path")
 			.datum(data)
 	        .attr("class", "line")
 	        .attr("d", line_minimum)
 			.style("stroke", "blue");
-			
+		
 		// append a crosshair
 	    var focus = svg.append("g")
 	        .attr("class", "focus")
 	        .style("display", "none");
-		
+	
 		// x line crosshair
 	    focus.append("line")
 	        .attr("class", "x_hover_line hover-line")
@@ -121,7 +147,7 @@ function drawD3Line(){
 			.data(["maximum_temperature", "minimum_temperature", "average_temperature"])
 			.enter().append("circle")
 			.attr("r", 4);
-			
+		
 		var lines = focus.selectAll(".focuslines")
 			.data(["maximum_temperature", "minimum_temperature", "average_temperature"])
 			.enter().append("line")
@@ -155,7 +181,7 @@ function drawD3Line(){
 				.data(["maximum_temperature", "minimum_temperature", "average_temperature"])
 				.attr("cy", function(h) { return yScale(d[h])})
 				.attr("cx", function() { return xScale(d.date)})
-			
+		
 			focus.selectAll(".y_hover_line")
 				.data(["maximum_temperature", "minimum_temperature", "average_temperature"])
 				.attr("x2", function() { return xScale(d.date)})
@@ -175,4 +201,54 @@ function drawD3Line(){
 				.text(function(h) { return d[h]});
 	    }
 	});
+}
+
+// draws a legend
+function drawLegend(){
+	// append legend lines
+	svg.append('rect')
+		.attr("x", width - 100)
+		.attr("y", 30)
+		.attr("width", 40)
+		.attr("height", 2)
+		.attr("fill", "red");
+	
+	svg.append('rect')
+		.attr("x", width - 100)
+		.attr("y", 50)
+		.attr("width", 40)
+		.attr("height", 2)
+		.attr("fill", "black");
+	
+	svg.append('rect')
+		.attr("x", width - 100)
+		.attr("y", 70)
+		.attr("width", 40)
+		.attr("height", 2)
+		.attr("fill", "blue");
+
+	// append legend text
+	svg.append('text')
+		.attr("x", width - 55)
+		.attr("y", 34)
+	    .attr("text-anchor", "left")  
+	    .style("font-size", "10px")
+		.style("font-family", "sans-serif")
+		.text("Maximum Temperature")
+	
+	svg.append('text')
+		.attr("x", width - 55)
+		.attr("y", 54)
+	    .attr("text-anchor", "left")  
+	    .style("font-size", "10px")
+		.style("font-family", "sans-serif")
+		.text("Average Temperature")
+	
+	svg.append('text')
+		.attr("x", width - 55)
+		.attr("y", 74)
+	    .attr("text-anchor", "left")  
+	    .style("font-size", "10px")
+		.style("font-family", "sans-serif")
+		.text("Minimum Temperature")
 }

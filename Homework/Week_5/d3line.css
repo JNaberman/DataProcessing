@@ -7,6 +7,16 @@
 * A css-script for the d3line assignment
 */
 
+.infoheader {
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+#inds{
+	position:absolute;
+	top: 55px;
+}
+
 .line {
   fill: none;
   stroke-width: 2px;

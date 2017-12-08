@@ -1,0 +1,807 @@
+[
+ {
+  "alcohol": 10.75,
+  "continent": "Europe",
+  "country": "Greece",
+  "population": 11069662,
+  "tobacco": 51.8
+ },
+ {
+  "alcohol": 4.83,
+  "continent": "Oceania",
+  "country": "Nauru",
+  "population": 10115,
+  "tobacco": 49.2
+ },
+ {
+  "alcohol": 15.76,
+  "continent": "Europe",
+  "country": "Russia",
+  "population": 143622566,
+  "tobacco": 48.5
+ },
+ {
+  "alcohol": 13.24,
+  "continent": "Europe",
+  "country": "Austria",
+  "population": 8234858,
+  "tobacco": 43.3
+ },
+ {
+  "alcohol": 15.13,
+  "continent": "Europe",
+  "country": "Belarus",
+  "population": 9640616,
+  "tobacco": 42.6
+ },
+ {
+  "alcohol": 9.63,
+  "continent": "Europe",
+  "country": "Bosnia and Herzegovina",
+  "population": 3833377,
+  "tobacco": 42.3
+ },
+ {
+  "alcohol": 11.09,
+  "continent": "Europe",
+  "country": "Serbia",
+  "population": 9186685,
+  "tobacco": 42.3
+ },
+ {
+  "alcohol": 4.8,
+  "continent": "Oceania",
+  "country": "Samoa",
+  "population": 179928,
+  "tobacco": 41.0
+ },
+ {
+  "alcohol": 16.27,
+  "continent": "Europe",
+  "country": "Hungary",
+  "population": 10095964,
+  "tobacco": 39.8
+ },
+ {
+  "alcohol": 12.5,
+  "continent": "Europe",
+  "country": "Latvia",
+  "population": 2227559,
+  "tobacco": 39.4
+ },
+ {
+  "alcohol": 3.78,
+  "continent": "Oceania",
+  "country": "Tonga",
+  "population": 100858,
+  "tobacco": 39.0
+ },
+ {
+  "alcohol": 15.57,
+  "continent": "Europe",
+  "country": "Estonia",
+  "population": 1355662,
+  "tobacco": 38.8
+ },
+ {
+  "alcohol": 8.55,
+  "continent": "South America",
+  "country": "Chile",
+  "population": 16096571,
+  "tobacco": 37.9
+ },
+ {
+  "alcohol": 12.44,
+  "continent": "Europe",
+  "country": "Bulgaria",
+  "population": 7682614,
+  "tobacco": 37.7
+ },
+ {
+  "alcohol": 0.71,
+  "continent": "Asia",
+  "country": "Jordan",
+  "population": 5332982,
+  "tobacco": 36.5
+ },
+ {
+  "alcohol": 5.51,
+  "continent": "North America",
+  "country": "Cuba",
+  "population": 11261052,
+  "tobacco": 35.9
+ },
+ {
+  "alcohol": 14.55,
+  "continent": "Europe",
+  "country": "Portugal",
+  "population": 10480085,
+  "tobacco": 35.8
+ },
+ {
+  "alcohol": 13.37,
+  "continent": "Europe",
+  "country": "United Kingdom",
+  "population": 60210012,
+  "tobacco": 35.7
+ },
+ {
+  "alcohol": 13.25,
+  "continent": "Europe",
+  "country": "Poland",
+  "population": 38463514,
+  "tobacco": 35.6
+ },
+ {
+  "alcohol": 2.87,
+  "continent": "Asia",
+  "country": "Turkey",
+  "population": 67860617,
+  "tobacco": 35.5
+ },
+ {
+  "alcohol": 0.59,
+  "continent": "Asia",
+  "country": "Indonesia",
+  "population": 226254703,
+  "tobacco": 35.4
+ },
+ {
+  "alcohol": 13.01,
+  "continent": "Europe",
+  "country": "Luxembourg",
+  "population": 457847,
+  "tobacco": 34.7
+ },
+ {
+  "alcohol": 10.05,
+  "continent": "Europe",
+  "country": "Netherlands",
+  "population": 16331646,
+  "tobacco": 34.3
+ },
+ {
+  "alcohol": 15.11,
+  "continent": "Europe",
+  "country": "Croatia",
+  "population": 4378056,
+  "tobacco": 34.0
+ },
+ {
+  "alcohol": 11.62,
+  "continent": "Europe",
+  "country": "Spain",
+  "population": 43854761,
+  "tobacco": 33.7
+ },
+ {
+  "alcohol": 13.37,
+  "continent": "Europe",
+  "country": "Denmark",
+  "population": 5417692,
+  "tobacco": 33.4
+ },
+ {
+  "alcohol": 15.03,
+  "continent": "Europe",
+  "country": "Lithuania",
+  "population": 3343268,
+  "tobacco": 33.0
+ },
+ {
+  "alcohol": 15.48,
+  "continent": "Europe",
+  "country": "Andorra",
+  "population": 81223,
+  "tobacco": 32.9
+ },
+ {
+  "alcohol": 8.14,
+  "continent": "South America",
+  "country": "Uruguay",
+  "population": 3325608,
+  "tobacco": 32.6
+ },
+ {
+  "alcohol": 15.3,
+  "continent": "Europe",
+  "country": "Romania",
+  "population": 21407619,
+  "tobacco": 32.6
+ },
+ {
+  "alcohol": 7.81,
+  "continent": "Europe",
+  "country": "Norway",
+  "population": 4624388,
+  "tobacco": 32.0
+ },
+ {
+  "alcohol": 6.4,
+  "continent": "Europe",
+  "country": "Georgia",
+  "population": 4475273,
+  "tobacco": 31.9
+ },
+ {
+  "alcohol": 5.91,
+  "continent": "Asia",
+  "country": "China",
+  "population": 1305600630,
+  "tobacco": 31.8
+ },
+ {
+  "alcohol": 5.12,
+  "continent": "South America",
+  "country": "Bolivia",
+  "population": 9125405,
+  "tobacco": 31.7
+ },
+ {
+  "alcohol": 13.66,
+  "continent": "Europe",
+  "country": "France",
+  "population": 61241700,
+  "tobacco": 31.7
+ },
+ {
+  "alcohol": 12.81,
+  "continent": "Europe",
+  "country": "Germany",
+  "population": 81246801,
+  "tobacco": 31.6
+ },
+ {
+  "alcohol": 2.41,
+  "continent": "Asia",
+  "country": "Nepal",
+  "population": 25506847,
+  "tobacco": 30.6
+ },
+ {
+  "alcohol": 10.0,
+  "continent": "South America",
+  "country": "Argentina",
+  "population": 39145491,
+  "tobacco": 30.0
+ },
+ {
+  "alcohol": 8.23,
+  "continent": "South America",
+  "country": "Venezuela",
+  "population": 26769115,
+  "tobacco": 29.8
+ },
+ {
+  "alcohol": 11.35,
+  "continent": "Europe",
+  "country": "Armenia",
+  "population": 3014917,
+  "tobacco": 29.6
+ },
+ {
+  "alcohol": 8.03,
+  "continent": "Asia",
+  "country": "Japan",
+  "population": 126978754,
+  "tobacco": 29.4
+ },
+ {
+  "alcohol": 0.93,
+  "continent": "Oceania",
+  "country": "Vanuatu",
+  "population": 209375,
+  "tobacco": 28.8
+ },
+ {
+  "alcohol": 0.82,
+  "continent": "Asia",
+  "country": "Malaysia",
+  "population": 25796124,
+  "tobacco": 28.8
+ },
+ {
+  "alcohol": 4.27,
+  "continent": "Europe",
+  "country": "Malta",
+  "population": 397094,
+  "tobacco": 28.7
+ },
+ {
+  "alcohol": 9.62,
+  "continent": "Oceania",
+  "country": "New Zealand",
+  "population": 4134699,
+  "tobacco": 28.6
+ },
+ {
+  "alcohol": 12.52,
+  "continent": "Europe",
+  "country": "Finland",
+  "population": 5246368,
+  "tobacco": 28.1
+ },
+ {
+  "alcohol": 10.77,
+  "continent": "Europe",
+  "country": "Belgium",
+  "population": 10561436,
+  "tobacco": 27.1
+ },
+ {
+  "alcohol": 1.29,
+  "continent": "Africa",
+  "country": "Tunisia",
+  "population": 10102477,
+  "tobacco": 26.6
+ },
+ {
+  "alcohol": 10.96,
+  "continent": "Asia",
+  "country": "Kazakhstan",
+  "population": 15451752,
+  "tobacco": 26.6
+ },
+ {
+  "alcohol": 15.19,
+  "continent": "Europe",
+  "country": "Slovenia",
+  "population": 1996522,
+  "tobacco": 26.5
+ },
+ {
+  "alcohol": 11.06,
+  "continent": "Europe",
+  "country": "Switzerland",
+  "population": 7408608,
+  "tobacco": 26.5
+ },
+ {
+  "alcohol": 6.31,
+  "continent": "Europe",
+  "country": "Iceland",
+  "population": 296745,
+  "tobacco": 26.3
+ },
+ {
+  "alcohol": 3.24,
+  "continent": "Asia",
+  "country": "Mongolia",
+  "population": 2526447,
+  "tobacco": 26.3
+ },
+ {
+  "alcohol": 14.41,
+  "continent": "Europe",
+  "country": "Ireland",
+  "population": 4203700,
+  "tobacco": 26.3
+ },
+ {
+  "alcohol": 10.68,
+  "continent": "Europe",
+  "country": "Italy",
+  "population": 58657355,
+  "tobacco": 26.1
+ },
+ {
+  "alcohol": 18.22,
+  "continent": "Europe",
+  "country": "Moldova",
+  "population": 4157707,
+  "tobacco": 26.0
+ },
+ {
+  "alcohol": 6.38,
+  "continent": "Asia",
+  "country": "Philippines",
+  "population": 86141373,
+  "tobacco": 26.0
+ },
+ {
+  "alcohol": 0.17,
+  "continent": "Asia",
+  "country": "Bangladesh",
+  "population": 142929979,
+  "tobacco": 25.6
+ },
+ {
+  "alcohol": 9.62,
+  "continent": "Africa",
+  "country": "Namibia",
+  "population": 2027026,
+  "tobacco": 24.9
+ },
+ {
+  "alcohol": 10.02,
+  "continent": "Oceania",
+  "country": "Australia",
+  "population": 20274282,
+  "tobacco": 24.8
+ },
+ {
+  "alcohol": 8.42,
+  "continent": "North America",
+  "country": "Mexico",
+  "population": 109747906,
+  "tobacco": 24.7
+ },
+ {
+  "alcohol": 2.89,
+  "continent": "Asia",
+  "country": "Israel",
+  "population": 6603677,
+  "tobacco": 24.6
+ },
+ {
+  "alcohol": 3.77,
+  "continent": "Asia",
+  "country": "Vietnam",
+  "population": 84203817,
+  "tobacco": 24.3
+ },
+ {
+  "alcohol": 10.1,
+  "continent": "Oceania",
+  "country": "Palau",
+  "population": 19907,
+  "tobacco": 24.0
+ },
+ {
+  "alcohol": 7.88,
+  "continent": "South America",
+  "country": "Paraguay",
+  "population": 5795493,
+  "tobacco": 24.0
+ },
+ {
+  "alcohol": 9.44,
+  "continent": "North America",
+  "country": "United States",
+  "population": 296139635,
+  "tobacco": 23.9
+ },
+ {
+  "alcohol": 4.77,
+  "continent": "Asia",
+  "country": "Cambodia",
+  "population": 13320058,
+  "tobacco": 23.6
+ },
+ {
+  "alcohol": 6.68,
+  "continent": "Europe",
+  "country": "Albania",
+  "population": 3082172,
+  "tobacco": 22.4
+ },
+ {
+  "alcohol": 6.28,
+  "continent": "North America",
+  "country": "Trinidad and Tobago",
+  "population": 1296933,
+  "tobacco": 22.1
+ },
+ {
+  "alcohol": 10.1,
+  "continent": "Europe",
+  "country": "Sweden",
+  "population": 9030163,
+  "tobacco": 22.0
+ },
+ {
+  "alcohol": 7.08,
+  "continent": "Asia",
+  "country": "Thailand",
+  "population": 65863973,
+  "tobacco": 21.7
+ },
+ {
+  "alcohol": 9.77,
+  "continent": "North America",
+  "country": "Canada",
+  "population": 32256333,
+  "tobacco": 21.6
+ },
+ {
+  "alcohol": 10.59,
+  "continent": "Africa",
+  "country": "Seychelles",
+  "population": 88747,
+  "tobacco": 21.2
+ },
+ {
+  "alcohol": 0.06,
+  "continent": "Asia",
+  "country": "Pakistan",
+  "population": 153356383,
+  "tobacco": 21.1
+ },
+ {
+  "alcohol": 0.36,
+  "continent": "Africa",
+  "country": "Comoros",
+  "population": 618632,
+  "tobacco": 20.7
+ },
+ {
+  "alcohol": 2.59,
+  "continent": "Asia",
+  "country": "India",
+  "population": 1144326293,
+  "tobacco": 18.6
+ },
+ {
+  "alcohol": 3.72,
+  "continent": "Africa",
+  "country": "Mauritius",
+  "population": 1222006,
+  "tobacco": 18.5
+ },
+ {
+  "alcohol": 9.46,
+  "continent": "Africa",
+  "country": "South Africa",
+  "population": 48352951,
+  "tobacco": 18.4
+ },
+ {
+  "alcohol": 2.23,
+  "continent": "Asia",
+  "country": "Lebanon",
+  "population": 3986865,
+  "tobacco": 18.1
+ },
+ {
+  "alcohol": 1.02,
+  "continent": "Asia",
+  "country": "Iran",
+  "population": 70122115,
+  "tobacco": 17.6
+ },
+ {
+  "alcohol": 5.55,
+  "continent": "North America",
+  "country": "Costa Rica",
+  "population": 4247843,
+  "tobacco": 16.8
+ },
+ {
+  "alcohol": 6.98,
+  "continent": "Africa",
+  "country": "Burkina Faso",
+  "population": 13421929,
+  "tobacco": 16.6
+ },
+ {
+  "alcohol": 0.79,
+  "continent": "Asia",
+  "country": "Sri Lanka",
+  "population": 19526406,
+  "tobacco": 16.5
+ },
+ {
+  "alcohol": 3.39,
+  "continent": "Africa",
+  "country": "Gambia",
+  "population": 1440542,
+  "tobacco": 16.2
+ },
+ {
+  "alcohol": 0.96,
+  "continent": "Africa",
+  "country": "Algeria",
+  "population": 33267887,
+  "tobacco": 15.2
+ },
+ {
+  "alcohol": 0.37,
+  "continent": "Africa",
+  "country": "Egypt",
+  "population": 74942115,
+  "tobacco": 15.1
+ },
+ {
+  "alcohol": 5.0,
+  "continent": "North America",
+  "country": "Jamaica",
+  "population": 2677888,
+  "tobacco": 15.0
+ },
+ {
+  "alcohol": 1.74,
+  "continent": "Africa",
+  "country": "Malawi",
+  "population": 12747846,
+  "tobacco": 15.0
+ },
+ {
+  "alcohol": 5.08,
+  "continent": "Africa",
+  "country": "Zimbabwe",
+  "population": 12984418,
+  "tobacco": 15.0
+ },
+ {
+  "alcohol": 1.46,
+  "continent": "Africa",
+  "country": "Morocco",
+  "population": 30385479,
+  "tobacco": 15.0
+ },
+ {
+  "alcohol": 9.38,
+  "continent": "South America",
+  "country": "Ecuador",
+  "population": 13735232,
+  "tobacco": 14.9
+ },
+ {
+  "alcohol": 0.25,
+  "continent": "Asia",
+  "country": "Saudi Arabia",
+  "population": 24745230,
+  "tobacco": 14.7
+ },
+ {
+  "alcohol": 4.14,
+  "continent": "Africa",
+  "country": "Kenya",
+  "population": 35349040,
+  "tobacco": 14.7
+ },
+ {
+  "alcohol": 3.66,
+  "continent": "Asia",
+  "country": "Bahrain",
+  "population": 867014,
+  "tobacco": 14.6
+ },
+ {
+  "alcohol": 6.75,
+  "continent": "Africa",
+  "country": "Tanzania",
+  "population": 39065600,
+  "tobacco": 14.6
+ },
+ {
+  "alcohol": 2.43,
+  "continent": "Oceania",
+  "country": "Fiji",
+  "population": 821820,
+  "tobacco": 14.4
+ },
+ {
+  "alcohol": 0.54,
+  "continent": "Asia",
+  "country": "United Arab Emirates",
+  "population": 4481976,
+  "tobacco": 14.4
+ },
+ {
+  "alcohol": 4.03,
+  "continent": "North America",
+  "country": "Guatemala",
+  "population": 13183505,
+  "tobacco": 14.4
+ },
+ {
+  "alcohol": 0.4,
+  "continent": "Asia",
+  "country": "Iraq",
+  "population": 27017712,
+  "tobacco": 14.2
+ },
+ {
+  "alcohol": 3.85,
+  "continent": "Africa",
+  "country": "Zambia",
+  "population": 12043591,
+  "tobacco": 13.4
+ },
+ {
+  "alcohol": 0.94,
+  "continent": "Asia",
+  "country": "Oman",
+  "population": 2506891,
+  "tobacco": 13.1
+ },
+ {
+  "alcohol": 0.11,
+  "continent": "Africa",
+  "country": "Mauritania",
+  "population": 3154087,
+  "tobacco": 13.1
+ },
+ {
+  "alcohol": 2.38,
+  "continent": "Africa",
+  "country": "Mozambique",
+  "population": 21126676,
+  "tobacco": 12.8
+ },
+ {
+  "alcohol": 3.54,
+  "continent": "Asia",
+  "country": "Uzbekistan",
+  "population": 25922239,
+  "tobacco": 12.8
+ },
+ {
+  "alcohol": 11.93,
+  "continent": "Africa",
+  "country": "Uganda",
+  "population": 28042413,
+  "tobacco": 12.1
+ },
+ {
+  "alcohol": 1.04,
+  "continent": "Africa",
+  "country": "Mali",
+  "population": 12881384,
+  "tobacco": 11.2
+ },
+ {
+  "alcohol": 6.91,
+  "continent": "North America",
+  "country": "Barbados",
+  "population": 274013,
+  "tobacco": 10.8
+ },
+ {
+  "alcohol": 0.6,
+  "continent": "Africa",
+  "country": "Senegal",
+  "population": 11268994,
+  "tobacco": 10.7
+ },
+ {
+  "alcohol": 4.38,
+  "continent": "Africa",
+  "country": "Chad",
+  "population": 10067932,
+  "tobacco": 9.4
+ },
+ {
+  "alcohol": 1.54,
+  "continent": "Africa",
+  "country": "Eritrea",
+  "population": 4191273,
+  "tobacco": 9.1
+ },
+ {
+  "alcohol": 5.7,
+  "continent": "Africa",
+  "country": "Swaziland",
+  "population": 1104642,
+  "tobacco": 8.9
+ },
+ {
+  "alcohol": 7.57,
+  "continent": "Africa",
+  "country": "Cameroon",
+  "population": 18126999,
+  "tobacco": 7.4
+ },
+ {
+  "alcohol": 12.28,
+  "continent": "Africa",
+  "country": "Nigeria",
+  "population": 139611303,
+  "tobacco": 7.1
+ },
+ {
+  "alcohol": 2.97,
+  "continent": "Africa",
+  "country": "Ghana",
+  "population": 21389514,
+  "tobacco": 5.5
+ },
+ {
+  "alcohol": 4.02,
+  "continent": "Africa",
+  "country": "Ethiopia",
+  "population": 76608431,
+  "tobacco": 4.3
+ }
+]

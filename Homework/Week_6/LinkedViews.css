@@ -1,0 +1,50 @@
+/* LinkedViews.css
+*
+* Jasper Naberman
+* 10787224
+* Data Processing Week 6
+*
+* A css-script for the Linked Views assignment
+*/
+
+.country {
+	fill: #ccc;
+	stroke: #fff;
+	stroke-width: .5px;
+	stroke-linejoin: round;
+}
+
+.graticule {
+	fill: none;
+	stroke: #000;
+	stroke-opacity: .3;
+	stroke-width: .5px;
+}
+
+.graticule.outline {
+	stroke: #333;
+	stroke-opacity: 1;
+	stroke-width: 1.5px;
+}
+
+.background {
+	fill: none;
+	pointer-events: all;
+}
+
+#country {
+	fill: #aaa;
+}
+
+#country .active {
+	fill: orange;
+}
+
+#country-borders {
+	fill: none;
+	stroke: white;
+	stroke-width: .3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	pointer-events: none;
+}

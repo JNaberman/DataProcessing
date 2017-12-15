@@ -84,6 +84,15 @@ function drawScatterplot(){
 	        .attr("dy", ".71em")
 	        .style("text-anchor", "end")
 	        .text("Prevalence of Tobacco Use Among Adults (Aged 15+) in 2005, %");
+		
+		// append title
+		svg.append("text")
+			.attr("x", width / 2)
+			.attr("y", 0 - margin.top / 1.8)
+			.attr("text-anchor", "middle")
+			.style("font-size", "16px")
+			.style("font-family", "sans-serif")
+			.text("Alcohol and Tobacco Consumption Among Adults in 2005");
 
 		// draw dots
 		svg.selectAll(".dot")
@@ -98,7 +107,7 @@ function drawScatterplot(){
 				tooltip.transition()
 					.style("opacity", .9);
 				tooltip.html("Country: " + d.country + "<br/>" + "Alcohol consumption: " + xValue(d) + " Litres" + "<br/>" 
-						+ "Tobacco use: " + yValue(d) + "%" + "<br/>" + "Population: " + d.population + "<br/>" + 
+						+ "Tobacco use: " + yValue(d) + "%" + "<br/>" + 
 						"Continent: " + d.continent)
 					.style("font-size", "10px")
 					.style("font-family", "sans-serif")
@@ -110,7 +119,7 @@ function drawScatterplot(){
 					.duration(50)
 					.style("opacity", .9);
 				tooltip.html("Country: " + d.country + "<br/>" + "Alcohol consumption: " + xValue(d) + " Litres" + "<br/>" 
-						+ "Tobacco use: " + yValue(d) + "%" + "<br/>" + "Population: " + d.population + "<br/>" + 
+						+ "Tobacco use: " + yValue(d) + "%" + "<br/>" + 
 						"Continent: " + d.continent)
 					.style("font-size", "10px")
 					.style("font-family", "sans-serif")

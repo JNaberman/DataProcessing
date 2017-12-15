@@ -1,0 +1,234 @@
+"Country","Total Population","Rank"
+"China",1409517.3969999999,1
+"India",1339180.127,2
+"United States",324459.463,3
+"Indonesia",263991.37899999996,4
+"Brazil",209288.27800000002,5
+"Pakistan",197015.955,6
+"Nigeria",190886.31100000002,7
+"Bangladesh",164669.751,8
+"Russia",143989.75400000002,9
+"Mexico",129163.276,10
+"Japan",127484.45,11
+"Ethiopia",104957.43800000001,12
+"Philippines",104918.09,13
+"Egypt",97553.151,14
+"Vietnam",95540.8,15
+"Germany",82114.224,16
+"DR Congo",81339.988,17
+"Iran",81162.788,18
+"Turkey",80745.02,19
+"Thailand",69037.51299999999,20
+"United Kingdom",66181.585,21
+"France",64979.547999999995,22
+"Italy",59359.9,23
+"Tanzania",57310.019,24
+"South Africa",56717.155999999995,25
+"Myanmar",53370.609000000004,26
+"South Korea",50982.212,27
+"Kenya",49699.862,28
+"Colombia",49065.615,29
+"Spain",46354.320999999996,30
+"Argentina",44271.041,31
+"Ukraine",44222.947,32
+"Uganda",42862.958,33
+"Algeria",41318.142,34
+"Sudan",40533.33,35
+"Iraq",38274.617999999995,36
+"Poland",38170.712,37
+"Canada",36624.199,38
+"Morocco",35739.58,39
+"Afghanistan",35530.081,40
+"Saudi Arabia",32938.212999999996,41
+"Peru",32165.485,42
+"Venezuela",31977.065,43
+"Uzbekistan",31910.641,44
+"Malaysia",31624.264,45
+"Angola",29784.193,46
+"Mozambique",29668.834,47
+"Nepal",29304.998,48
+"Ghana",28833.629,49
+"Yemen",28250.42,50
+"Madagascar",25570.895,51
+"North Korea",25490.965,52
+"Australia",24450.561,53
+"Ivory Coast",24294.75,54
+"Cameroon",24053.727000000003,55
+"Taiwan",23626.456000000002,56
+"Niger",21477.347999999998,57
+"Sri Lanka",20876.917,58
+"Romania",19679.306,59
+"Burkina Faso",19193.381999999998,60
+"Malawi",18622.104,61
+"Mali",18541.98,62
+"Syria",18269.868000000002,63
+"Kazakhstan",18204.499,64
+"Chile",18054.726000000002,65
+"Zambia",17094.13,66
+"Netherlands",17035.938000000002,67
+"Guatemala",16913.503,68
+"Ecuador",16624.858,69
+"Zimbabwe",16529.904,70
+"Cambodia",16005.373,71
+"Senegal",15850.567,72
+"Chad",14899.993999999999,73
+"Somalia",14742.523000000001,74
+"Guinea",12717.176000000001,75
+"South Sudan",12575.714,76
+"Rwanda",12208.407,77
+"Tunisia",11532.127,78
+"Cuba",11484.636,79
+"Belgium",11429.336000000001,80
+"Benin",11175.692,81
+"Greece",11159.773000000001,82
+"Bolivia",11051.6,83
+"Haiti",10981.229,84
+"Burundi",10864.245,85
+"Dominican Republic",10766.998,86
+"Czech Republic",10618.303,87
+"Portugal",10329.506,88
+"Sweden",9910.701,89
+"Azerbaijan",9827.589,90
+"Hungary",9721.559000000001,91
+"Jordan",9702.353000000001,92
+"Belarus",9468.338,93
+"United Arab Emirates",9400.145,94
+"Honduras",9265.067,95
+"Tajikistan",8921.343,96
+"Serbia",8790.574,97
+"Austria",8735.453000000001,98
+"Switzerland",8476.005,99
+"Israel",8321.57,100
+"Papua New Guinea",8251.162,101
+"Togo",7797.694,102
+"Sierra Leone",7557.2119999999995,103
+"Hong Kong",7364.883000000001,104
+"Bulgaria",7084.571,105
+"Laos",6858.16,106
+"Paraguay",6811.297,107
+"El Salvador",6377.853,108
+"Libya",6374.616,109
+"Nicaragua",6217.581,110
+"Lebanon",6082.357,111
+"Kyrgyzstan",6045.116999999999,112
+"Turkmenistan",5758.075,113
+"Denmark",5733.5509999999995,114
+"Singapore",5708.844,115
+"Finland",5523.231,116
+"Slovakia",5447.661999999999,117
+"Norway",5305.383000000001,118
+"Republic of the Congo",5260.75,119
+"Eritrea",5068.831,120
+"Palestine",4920.724,121
+"Costa Rica",4905.769,122
+"Ireland",4761.657,123
+"Liberia",4731.906,124
+"New Zealand",4705.818,125
+"Central African Republic",4659.08,126
+"Oman",4636.262,127
+"Mauritania",4420.184,128
+"Croatia",4189.353,129
+"Kuwait",4136.528,130
+"Panama",4098.587,131
+"Moldova",4051.212,132
+"Georgia",3912.0609999999997,133
+"Puerto Rico",3663.131,134
+"Bosnia and Herzegovina",3507.0170000000003,135
+"Uruguay",3456.75,136
+"Mongolia",3075.647,137
+"Armenia",2930.45,138
+"Albania",2930.187,139
+"Jamaica",2890.2990000000004,140
+"Lithuania",2890.297,141
+"Qatar",2639.211,142
+"Namibia",2533.794,143
+"Botswana",2291.661,144
+"Lesotho",2233.339,145
+"Gambia",2100.5679999999998,146
+"Macedonia",2083.16,147
+"Slovenia",2079.976,148
+"Gabon",2025.1370000000002,149
+"Latvia",1949.67,150
+"Guinea-Bissau",1861.283,151
+"Bahrain",1492.5839999999998,152
+"Trinidad and Tobago",1369.125,153
+"Swaziland",1367.254,154
+"Estonia",1309.632,155
+"Timor-Leste",1296.3110000000001,156
+"Equatorial Guinea",1267.6889999999999,157
+"Mauritius",1265.138,158
+"Cyprus",1179.5510000000002,159
+"Djibouti",956.985,160
+"Fiji",905.502,161
+"Reunion",876.562,162
+"Comoros",813.9119999999999,163
+"Bhutan",807.61,164
+"Guyana",777.8589999999999,165
+"Montenegro",628.96,166
+"Macau",622.567,167
+"Solomon Islands",611.3430000000001,168
+"Luxembourg",583.455,169
+"Suriname",563.4019999999999,170
+"Western Sahara",552.628,171
+"Cape Verde",546.388,172
+"Guadeloupe",449.56800000000004,173
+"Maldives",436.33,174
+"Malta",430.835,175
+"Brunei",428.69699999999995,176
+"Bahamas",395.361,177
+"Martinique",384.89599999999996,178
+"Belize",374.681,179
+"Iceland",335.025,180
+"Barbados",285.719,181
+"French Polynesia",283.007,182
+"French Guiana",282.731,183
+"New Caledonia",276.255,184
+"Vanuatu",276.244,185
+"Mayotte",253.045,186
+"Sao Tome and Principe",204.327,187
+"Samoa",196.44,188
+"Saint Lucia",178.84400000000002,189
+"Guam",164.229,190
+"Curaçao",160.539,191
+"Kiribati",116.398,192
+"Saint Vincent and the Grenadines",109.897,193
+"Tonga",108.02,194
+"Grenada",107.825,195
+"Micronesia",105.544,196
+"Aruba",105.264,197
+"United States Virgin Islands",104.90100000000001,198
+"Antigua and Barbuda",102.012,199
+"Seychelles",94.73700000000001,200
+"Isle of Man",84.287,201
+"Andorra",76.965,202
+"Dominica",73.925,203
+"Cayman Islands",61.559,204
+"Bermuda",61.349,205
+"Greenland",56.48,206
+"American Samoa",55.641000000000005,207
+"Saint Kitts and Nevis",55.345,208
+"Northern Mariana Islands",55.144,209
+"Marshall Islands",53.126999999999995,210
+"Faroe Islands",49.29,211
+"Sint Maarten",40.12,212
+"Monaco",38.695,213
+"Liechtenstein",37.922,214
+"Turks and Caicos Islands",35.446,215
+"Gibraltar",34.571,216
+"San Marino",33.4,217
+"British Virgin Islands",31.195999999999998,218
+"Palau",21.729,219
+"Cook Islands",17.38,220
+"Anguilla",14.909,221
+"Wallis and Futuna",11.773,222
+"Nauru",11.359000000000002,223
+"Tuvalu",11.192,224
+"Saint Pierre and Miquelon",6.32,225
+"Montserrat",5.1770000000000005,226
+"Falkland Islands",2.91,227
+"Niue",1.618,228
+"Tokelau",1.3,229
+"Vatican City",0.792,230
+"Guernsey",0,231
+"Saint Martin",0,232
+"Jersey",0,233
